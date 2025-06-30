@@ -32,7 +32,7 @@ describe('fillTank', () => {
       },
     };
 
-    fillTank(customer, 10);
+    fillTank(customer, 20,);
     expect(customer.vehicle.fuelRemains).toBe(40);
   });
 
@@ -97,7 +97,7 @@ describe('fillTank', () => {
       },
     };
 
-    fillTank(customer, 1, 10);
-    expect(customer.money).toBe(2990);
+    fillTank(customer, 1.23456, 10);
+    expect(customer.money).toBe(2987.65);
   });
 });
