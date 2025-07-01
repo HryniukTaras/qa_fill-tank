@@ -32,7 +32,7 @@ describe('fillTank', () => {
       },
     };
 
-    fillTank(customer, 20,);
+    fillTank(customer, 20);
     expect(customer.vehicle.fuelRemains).toBe(40);
   });
 
